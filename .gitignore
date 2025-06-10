@@ -1,0 +1,26 @@
+# Rust build
+/target/*
+target/
+# Cargo package
+**/*.rs.bk
+Cargo.lock
+
+# Ignore backup and temp files
+*.rs.bk
+*.swp
+*.tmp
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# By default, keep the lockfile for binaries (if you're writing a lib, you might remove it)
+!Cargo.lock
+
+# Added by cargo
+
+/target
